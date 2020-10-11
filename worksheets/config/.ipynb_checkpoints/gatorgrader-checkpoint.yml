@@ -1,0 +1,27 @@
+---
+name: cmpsc-100-week-04-worksheets
+break: true
+indent: 4
+---
+
+Week 04 - Worksheet 0 - Syntax - for loops.ipynb:
+    ConfirmFileExists
+    MatchFileFragment --fragment "TODO" --count 0 --exact
+    MatchFileFragment --fragment "well_production = [1440, 1750, 1230, 980, 1900, 1475, 730]" --count 1 --exact
+    MatchFileFragment --fragment "for day in well_production" --count 1 --exact
+    MatchFileFragment --fragment "for name in cat_names" --count 4 --exact
+    
+    
+Week 04 - Worksheet 1 - Data structures (dict).ipynb:
+    ConfirmFileExists
+    MatchFileFragment --fragment "TODO" --count 0 --exact
+    MatchFileFragment --fragment "for item in shopping_list" --count 1 --exact
+    MatchFileFragment --fragment "store_inventory[item][" --count 3
+    MatchFileFragment --fragment "for item in store_inventory" --count 1 --exact
+    
+MatchCommandFragment --command "python3 Week_04_-_Worksheet_0_-_Syntax_-_for_loops.py < .inputs/.worksheet-inputs" --fragment "You have a below average well" --count 1 --exact
+MatchCommandFragment --command "python3 Week_04_-_Worksheet_1_-_Data_structures_\(dict\).py < .inputs/.worksheet-inputs" --fragment "5.53" --count 1 --exact
+MatchCommandFragment --command "python3 Week_04_-_Worksheet_1_-_Data_structures_\(dict\).py < .inputs/.worksheet-inputs" --fragment "- 19" --count 1 --exact
+MatchCommandFragment --command "python3 Week_04_-_Worksheet_1_-_Data_structures_\(dict\).py < .inputs/.worksheet-inputs" --fragment "- 11" --count 2 --exact
+MatchCommandFragment --command "python3 Week_04_-_Worksheet_1_-_Data_structures_\(dict\).py < .inputs/.worksheet-inputs < .inputs/.worksheet-inputs" --fragment "- 48" --count 1 --exact
+MatchCommandFragment --command "python3 Week_04_-_Worksheet_1_-_Data_structures_\(dict\).py < .inputs/.worksheet-inputs" --fragment "- 9" --count 1 --exact
