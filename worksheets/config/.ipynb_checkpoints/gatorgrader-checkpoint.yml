@@ -1,27 +1,30 @@
 ---
-name: cmpsc-100-week-04-worksheets
+name: cmpsc-100-week-06-worksheets
 break: true
 indent: 4
 ---
 
-Week 04 - Worksheet 0 - Syntax - for loops.ipynb:
+Week 06 - Worksheet 0 - Data types - Strings.ipynb:
     ConfirmFileExists
     MatchFileFragment --fragment "TODO" --count 0 --exact
-    MatchFileFragment --fragment "well_production = [1440, 1750, 1230, 980, 1900, 1475, 730]" --count 1 --exact
-    MatchFileFragment --fragment "for day in well_production" --count 1 --exact
-    MatchFileFragment --fragment "for name in cat_names" --count 4 --exact
+    MatchFileFragment --fragment "choice.upper()" --count 1
+    MatchFileFragment --fragment "animal.startswith(" --count 1
+    MatchFileFragment --fragment "bad_message.replace(" --count 1
+    MatchFileFragment --fragment "quote.split()" --count 1
+    MatchFileFragment --fragment ".join(words)" --count 1
+    MatchFileFragment --fragment "word.lower()" --count 1
+    MatchFileFragment --fragment "verse.split()" --count 1
     
-    
-Week 04 - Worksheet 1 - Data structures (dict).ipynb:
+Week 06 - Worksheet 1 - Syntax - File IO.ipynb:
     ConfirmFileExists
     MatchFileFragment --fragment "TODO" --count 0 --exact
-    MatchFileFragment --fragment "for item in shopping_list" --count 1 --exact
-    MatchFileFragment --fragment "store_inventory[item][" --count 3
-    MatchFileFragment --fragment "for item in store_inventory" --count 1 --exact
-    
-MatchCommandFragment --command "python3 Week_04_-_Worksheet_0_-_Syntax_-_for_loops.py < .inputs/.worksheet-inputs" --fragment "You have a below average well" --count 1 --exact
-MatchCommandFragment --command "python3 Week_04_-_Worksheet_1_-_Data_structures_\(dict\).py < .inputs/.worksheet-inputs" --fragment "5.53" --count 1 --exact
-MatchCommandFragment --command "python3 Week_04_-_Worksheet_1_-_Data_structures_\(dict\).py < .inputs/.worksheet-inputs" --fragment "- 19" --count 1 --exact
-MatchCommandFragment --command "python3 Week_04_-_Worksheet_1_-_Data_structures_\(dict\).py < .inputs/.worksheet-inputs" --fragment "- 11" --count 2 --exact
-MatchCommandFragment --command "python3 Week_04_-_Worksheet_1_-_Data_structures_\(dict\).py < .inputs/.worksheet-inputs < .inputs/.worksheet-inputs" --fragment "- 48" --count 1 --exact
-MatchCommandFragment --command "python3 Week_04_-_Worksheet_1_-_Data_structures_\(dict\).py < .inputs/.worksheet-inputs" --fragment "- 9" --count 1 --exact
+
+MatchCommandFragment --command "python3 Week_06_-_Worksheet_0_-_Data_types_-_Strings.py < .inputs/.worksheet-inputs" --fragment "Come now, Roy, we will first make them bad hot coffee some snow would cool." --count 1 --exact
+MatchCommandFragment --command "python3 Week_06_-_Worksheet_0_-_Data_types_-_Strings.py < .inputs/.worksheet-inputs" --fragment "o	10" --count 1 --exact
+MatchCommandFragment --command "python3 Week_06_-_Worksheet_0_-_Data_types_-_Strings.py < .inputs/.worksheet-inputs" --fragment "e	7" --count 1 --exact
+MatchCommandFragment --command "python3 Week_06_-_Worksheet_0_-_Data_types_-_Strings.py < .inputs/.worksheet-inputs" --fragment "i	2" --count 1 --exact
+MatchCommandFragment --command "python3 Week_06_-_Worksheet_0_-_Data_types_-_Strings.py < .inputs/.worksheet-inputs" --fragment "a	2" --count 1 --exact
+MatchCommandFragment --command "python3 Week_06_-_Worksheet_0_-_Data_types_-_Strings.py < .inputs/.worksheet-inputs" --fragment "u	1" --count 1 --exact
+MatchCommandFragment --command "python3 Week_06_-_Worksheet_0_-_Data_types_-_Strings.py < .inputs/.worksheet-inputs" --fragment "Stop telling me stuff!" --count 1 --exact
+MatchCommandFragment --command "python3 Week_06_-_Worksheet_1_-_Syntax_-_File_IO.py" --fragment "His changing eyes." --count 1 --exact
+MatchCommandFragment --command "python3 Week_06_-_Worksheet_1_-_Syntax_-_File_IO.py" --fragment "10	Lifting his delicate feet." --count 1 --exact
