@@ -14,7 +14,7 @@ Week 06 - Worksheet 0 - Data types - Strings.ipynb:
     MatchFileFragment --fragment ".join(words)" --count 1
     MatchFileFragment --fragment "word.lower()" --count 1
     MatchFileFragment --fragment "verse.split()" --count 1
-    MatchFileFragment --fragmnet "chr(" --count 5
+    MatchFileFragment --fragment "chr(" --count 5
     
 Week 06 - Worksheet 1 - Syntax - File IO.ipynb:
     ConfirmFileExists
